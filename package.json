@@ -2,7 +2,7 @@
   {
       "name": "synergy-esoterics-community",
       "version": "0.1.0",
-      "description": "React components for the Синергия эзотерики и парапсихологии community project",
+      "description": "Landing page for Наталия Сорокина - Синергия эзотерики и парапсихологии",
       "main": "dist/index.js",
       "module": "dist/index.mjs",
       "types": "dist/index.d.ts",
@@ -73,7 +73,8 @@
           "dev": "vite",
           "start": "vite",
           "build": "vite build",
-          "build:lib": "vite build",
+          "preview": "vite preview",
+          "build:lib": "vite build --mode library",
           "build:types": "tsc --emitDeclarationOnly --outDir dist"
       },
       "peerDependencies": {
