@@ -7,9 +7,9 @@ Landing page for Natalia Sorokina - master of synergy of esotericism, parapsycho
 
 ## 📚 Documentation
 
-- **[PORTFOLIO_EN.md](./PORTFOLIO_EN.md)** - Detailed documentation for employers with technology descriptions and implementation details
+- **[PORTFOLIO_EN.md](./PORTFOLIO_EN.md)** - Detailed project documentation with technology descriptions and implementation details
 - **[README.md](./README.md)** - Русская версия
-- **[PORTFOLIO.md](./PORTFOLIO.md)** - Русская документация портфолио
+- **[PORTFOLIO.md](./PORTFOLIO.md)** - Русская документация проекта
 
 ## 🚀 Quick Start
 

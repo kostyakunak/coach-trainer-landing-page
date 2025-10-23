@@ -1,4 +1,4 @@
-# 🚀 Coach Landing Page - Portfolio Project
+# 🚀 Coach Landing Page - Technical Documentation
 
 > **Live Demo:** [https://coachlandingpage.netlify.app](https://coachlandingpage.netlify.app)  
 > *This is a copy of a real client order that I use as a portfolio*
