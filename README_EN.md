@@ -94,7 +94,3 @@ npm run build
 - `npm run build` - build for production
 - `npm run preview` - preview build
 - `npm run build:lib` - build as library (if needed)
-
-## 📞 Contact
-
-Use the CTA button on the site to contact Natalia Sorokina.
