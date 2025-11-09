@@ -2,12 +2,12 @@ import { motion } from "motion/react";
 import { CheckCircle2 } from "lucide-react";
 
 const painPoints = [
-  "Чувствуете, что живете не своей жизнью и хотите найти свой путь",
-  "Сталкиваетесь с повторяющимися проблемами в отношениях и финансах",
-  "Хотите развить свою интуицию и энергетические способности",
-  "Ищете глубокие и устойчивые изменения, а не временные решения",
-  "Готовы работать над собой и открыты к трансформации",
-  "Чувствуете внутренний потенциал, но не знаете, как его раскрыть"
+  "Feel like you're not living your own life and want to find your path",
+  "Face recurring problems in relationships and finances",
+  "Want to develop your intuition and energetic abilities",
+  "Seek deep and lasting changes, not temporary solutions",
+  "Ready to work on yourself and open to transformation",
+  "Feel inner potential but don't know how to unlock it"
 ];
 
 export function ForYouSection() {
@@ -24,7 +24,7 @@ export function ForYouSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-teal-600 bg-clip-text text-transparent">
-            Это для тебя, если:
+            This is for you if:
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-teal-600 mx-auto rounded-full" />
         </motion.div>
@@ -54,7 +54,7 @@ export function ForYouSection() {
         >
           <div className="bg-gradient-to-r from-purple-100 via-teal-100 to-orange-100 p-8 rounded-3xl max-w-3xl mx-auto">
             <p className="text-xl text-gray-800 italic">
-              "Если хотя бы один пункт откликается — эта программа для тебя"
+              "If at least one point resonates — this program is for you"
             </p>
           </div>
         </motion.div>

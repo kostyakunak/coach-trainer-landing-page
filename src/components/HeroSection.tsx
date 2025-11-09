@@ -43,7 +43,7 @@ export function HeroSection() {
             className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full mb-8 border border-purple-200"
           >
             <Sparkles className="w-4 h-4 text-purple-600" />
-            <span className="text-sm text-purple-900">Синергия эзотерики и парапсихологии</span>
+            <span className="text-sm text-purple-900">Synergy of esotericism and parapsychology</span>
           </motion.div>
 
           <motion.h1
@@ -52,9 +52,9 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-teal-600 to-orange-600 bg-clip-text text-transparent"
           >
-            Личное сопровождение
+            Personal Guidance
             <br />
-            Наталии Сорокиной
+            by Natalia Sorokina
           </motion.h1>
 
           <motion.p
@@ -63,8 +63,8 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto"
           >
-            Трансформация всех сфер жизни через глубокую работу с энергией, 
-            картами таро и биоэнергетическими практиками
+            Transformation of all areas of life through deep work with energy, 
+            tarot cards and bioenergetic practices
           </motion.p>
 
           {/* Pain Points */}
@@ -75,9 +75,9 @@ export function HeroSection() {
             className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 max-w-5xl mx-auto"
           >
             {[
-              { icon: Heart, text: "Чувствуете, что застряли и не можете двигаться дальше" },
-              { icon: Sparkles, text: "Хотите раскрыть свой потенциал и найти свое предназначение" },
-              { icon: TrendingUp, text: "Готовы к глубоким изменениям во всех сферах жизни" }
+              { icon: Heart, text: "Feel stuck and unable to move forward" },
+              { icon: Sparkles, text: "Want to unlock your potential and find your purpose" },
+              { icon: TrendingUp, text: "Ready for deep changes in all areas of life" }
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -101,7 +101,7 @@ export function HeroSection() {
               size="lg" 
               className="bg-gradient-to-r from-purple-600 to-teal-600 hover:from-purple-700 hover:to-teal-700 text-white px-8 py-6 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300"
             >
-              Начать трансформацию
+              Start Transformation
             </Button>
           </motion.div>
 
@@ -118,7 +118,7 @@ export function HeroSection() {
                   <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                     <div className="w-0 h-0 border-t-8 border-t-transparent border-l-12 border-l-purple-600 border-b-8 border-b-transparent ml-1" />
                   </div>
-                  <p className="text-gray-700">Видео-презентация программы</p>
+                  <p className="text-gray-700">Program video presentation</p>
                 </div>
               </div>
             </div>

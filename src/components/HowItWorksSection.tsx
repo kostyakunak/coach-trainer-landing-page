@@ -4,26 +4,26 @@ import { Video, MessageCircle, Calendar, Sparkles } from "lucide-react";
 const steps = [
   {
     icon: MessageCircle,
-    title: "Личный контакт",
-    description: "Все сессии проходят в формате личного общения — онлайн или офлайн. Создается глубокая энергетическая связь для максимального эффекта.",
+    title: "Personal Contact",
+    description: "All sessions are conducted in a personal communication format — online or offline. A deep energetic connection is created for maximum effect.",
     color: "from-purple-500 to-purple-600"
   },
   {
     icon: Calendar,
-    title: "Гибкий график",
-    description: "Вы сами выбираете удобное время для сессий. Программа адаптируется под ваш ритм жизни и личные обстоятельства.",
+    title: "Flexible Schedule",
+    description: "You choose the convenient time for sessions yourself. The program adapts to your life rhythm and personal circumstances.",
     color: "from-teal-500 to-teal-600"
   },
   {
     icon: Video,
-    title: "Запись сессий",
-    description: "Все сессии записываются, чтобы вы могли пересматривать ключевые моменты и возвращаться к практикам в любое время.",
+    title: "Session Recordings",
+    description: "All sessions are recorded so you can review key moments and return to practices at any time.",
     color: "from-orange-500 to-orange-600"
   },
   {
     icon: Sparkles,
-    title: "Постоянная поддержка",
-    description: "Между сессиями вы получаете поддержку в закрытом чате, дополнительные материалы и практики для самостоятельной работы.",
+    title: "Constant Support",
+    description: "Between sessions you receive support in a closed chat, additional materials and practices for independent work.",
     color: "from-purple-500 to-teal-500"
   }
 ];
@@ -42,10 +42,10 @@ export function HowItWorksSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-purple-600 bg-clip-text text-transparent">
-            Как проходит наша работа
+            How Our Work Goes
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            Формат работы создан для максимального комфорта и результата
+            The work format is designed for maximum comfort and results
           </p>
         </motion.div>
 
@@ -87,21 +87,21 @@ export function HowItWorksSection() {
         >
           <div className="bg-gradient-to-br from-purple-100 to-purple-50 p-8 rounded-3xl border border-purple-200">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              💎 Индивидуальный подход
+              💎 Individual Approach
             </h3>
             <p className="text-gray-700">
-              Программа адаптируется под ваши уникальные задачи и особенности. 
-              Нет шаблонов — только работа с вашей конкретной ситуацией.
+              The program adapts to your unique tasks and characteristics. 
+              No templates — only work with your specific situation.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-teal-100 to-teal-50 p-8 rounded-3xl border border-teal-200">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              🎯 Гарантия результата
+              🎯 Result Guarantee
             </h3>
             <p className="text-gray-700">
-              Если после первой сессии вы не почувствуете изменений — 
-              вернем деньги без вопросов. Ваше доверие — наша главная ценность.
+              If after the first session you don't feel changes — 
+              we'll refund your money without questions. Your trust is our main value.
             </p>
           </div>
         </motion.div>

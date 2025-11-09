@@ -4,28 +4,28 @@ import { Sparkles, Zap, Heart, Eye, Infinity } from "lucide-react";
 const uniqueFeatures = [
   {
     icon: Sparkles,
-    title: "Синергия практик",
-    description: "Уникальное сочетание эзотерики, парапсихологии, карт таро и биоэнергетики создает мощный эффект трансформации"
+    title: "Synergy of Practices",
+    description: "A unique combination of esotericism, parapsychology, tarot cards and bioenergetics creates a powerful transformation effect"
   },
   {
     icon: Infinity,
-    title: "Единое энергетическое поле",
-    description: "Все сессии проходят в едином энергетическом поле, что усиливает эффект и создает непрерывный поток трансформации"
+    title: "Unified Energy Field",
+    description: "All sessions take place in a unified energy field, which enhances the effect and creates a continuous flow of transformation"
   },
   {
     icon: Eye,
-    title: "Видение корня проблем",
-    description: "Работа не только с симптомами, но и с истинными причинами ситуаций на уровне энергии и кармических программ"
+    title: "Seeing the Root of Problems",
+    description: "Work not only with symptoms, but also with the true causes of situations at the level of energy and karmic programs"
   },
   {
     icon: Zap,
-    title: "Мгновенные результаты",
-    description: "Изменения ощущаются уже в процессе первой сессии благодаря глубокой энергетической работе"
+    title: "Instant Results",
+    description: "Changes are felt already during the first session thanks to deep energetic work"
   },
   {
     icon: Heart,
-    title: "Холистический подход",
-    description: "Трансформация затрагивает все сферы жизни одновременно: отношения, финансы, здоровье, предназначение"
+    title: "Holistic Approach",
+    description: "Transformation affects all areas of life simultaneously: relationships, finances, health, purpose"
   }
 ];
 
@@ -41,10 +41,10 @@ export function UniquenessSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-teal-600 to-orange-600 bg-clip-text text-transparent">
-            Уникальность формата
+            Format Uniqueness
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            Что делает эту программу особенной и эффективной
+            What makes this program special and effective
           </p>
         </motion.div>
 
@@ -89,20 +89,20 @@ export function UniquenessSection() {
               <div className="text-center max-w-4xl mx-auto">
                 <Sparkles className="w-12 h-12 text-purple-600 mx-auto mb-6" />
                 <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                  Синергия эзотерики, парапсихологии, таро и биоэнергетики
+                  Synergy of Esotericism, Parapsychology, Tarot and Bioenergetics
                 </h3>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  Это не просто набор разных методик. Это глубоко интегрированная система, 
-                  где каждая практика усиливает другую, создавая мощный синергетический эффект. 
-                  Работа происходит одновременно на всех уровнях: физическом, энергетическом, 
-                  эмоциональном и духовном.
+                  This is not just a set of different methodologies. This is a deeply integrated system, 
+                  where each practice enhances the other, creating a powerful synergistic effect. 
+                  Work happens simultaneously on all levels: physical, energetic, 
+                  emotional and spiritual.
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
                   {[
-                    { label: "Эзотерика", emoji: "🔮" },
-                    { label: "Парапсихология", emoji: "🧠" },
-                    { label: "Таро", emoji: "🃏" },
-                    { label: "Биоэнергетика", emoji: "⚡" }
+                    { label: "Esotericism", emoji: "🔮" },
+                    { label: "Parapsychology", emoji: "🧠" },
+                    { label: "Tarot", emoji: "🃏" },
+                    { label: "Bioenergetics", emoji: "⚡" }
                   ].map((item, index) => (
                     <div
                       key={index}

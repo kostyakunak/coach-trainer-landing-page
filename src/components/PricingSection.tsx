@@ -5,59 +5,59 @@ import { Check, Star, Sparkles } from "lucide-react";
 const packages = [
   {
     name: "Light",
-    subtitle: "Групповой формат",
+    subtitle: "Group format",
     price: "15€",
     oldPrice: "12€",
     popular: false,
     gradient: "from-gray-100 to-gray-200",
     borderColor: "border-gray-300",
     features: [
-      "4 групповые сессии",
-      "Работа в едином поле группы",
-      "Доступ к базовым материалам",
-      "Общий чат поддержки",
-      "Запись всех сессий",
-      "Сертификат об окончании"
+      "4 group sessions",
+      "Work in unified group field",
+      "Access to basic materials",
+      "General support chat",
+      "Recording of all sessions",
+      "Completion certificate"
     ]
   },
   {
     name: "VIP",
-    subtitle: "Оптимальный формат",
+    subtitle: "Optimal format",
     price: "45€",
     oldPrice: "35€",
     popular: true,
     gradient: "from-purple-500 to-teal-500",
     borderColor: "border-purple-500",
     features: [
-      "Все из пакета Light",
-      "6 индивидуальных сессий",
-      "Личная работа с картами таро",
-      "Индивидуальная энергокоррекция",
-      "Персональные практики и медитации",
-      "Чат личной поддержки 24/7",
-      "Доступ к закрытым материалам",
-      "Бонус: видео-курс по нейрографике"
+      "Everything from Light package",
+      "6 individual sessions",
+      "Personal tarot card work",
+      "Individual energy correction",
+      "Personal practices and meditations",
+      "24/7 personal support chat",
+      "Access to closed materials",
+      "Bonus: neurographics video course"
     ]
   },
   {
     name: "Platinum",
-    subtitle: "Максимальный результат",
+    subtitle: "Maximum results",
     price: "79€",
     oldPrice: "65€",
-    installment: "Рассрочка: 30€ раз в 3 недели",
+    installment: "Installment: 30€ every 3 weeks",
     popular: false,
     gradient: "from-orange-500 to-purple-600",
     borderColor: "border-orange-500",
     features: [
-      "Все из пакета VIP",
-      "8 индивидуальных сессий",
-      "Годовое сопровождение (12 месяцев)",
-      "Ежемесячные групповые сессии",
-      "Вступление в элитный чат учеников",
-      "Приоритетная поддержка мастера",
-      "Доступ ко всем материалам навсегда",
-      "Бонус: серия медитаций и курс по магии",
-      "Индивидуальная мастер-сессия 90 минут"
+      "Everything from VIP package",
+      "8 individual sessions",
+      "Annual support (12 months)",
+      "Monthly group sessions",
+      "Access to elite student chat",
+      "Priority master support",
+      "Lifetime access to all materials",
+      "Bonus: meditation series and magic course",
+      "Individual master session 90 minutes"
     ]
   }
 ];
@@ -90,10 +90,10 @@ export function PricingSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-orange-600 bg-clip-text text-transparent">
-            Выбери свой пакет
+            Choose Your Package
           </h2>
           <p className="text-gray-600 text-lg">
-            Начни трансформацию уже сегодня
+            Start your transformation today
           </p>
         </motion.div>
 
@@ -111,7 +111,7 @@ export function PricingSection() {
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-20">
                   <div className="bg-gradient-to-r from-purple-600 to-teal-600 text-white px-6 py-2 rounded-full flex items-center gap-2 shadow-lg">
                     <Star className="w-4 h-4 fill-current" />
-                    <span className="text-sm font-semibold">Хит продаж</span>
+                    <span className="text-sm font-semibold">Bestseller</span>
                   </div>
                 </div>
               )}
@@ -148,7 +148,7 @@ export function PricingSection() {
                         : 'bg-gray-900 hover:bg-gray-800'
                     }`}
                   >
-                    Выбрать пакет
+                    Choose Package
                   </Button>
                 </div>
               </div>
@@ -166,18 +166,18 @@ export function PricingSection() {
         >
           <div className="flex items-center justify-center gap-3 mb-6">
             <Sparkles className="w-8 h-8 text-purple-600" />
-            <h3 className="text-2xl font-bold text-gray-900">Дополнительные бонусы</h3>
+            <h3 className="text-2xl font-bold text-gray-900">Additional Bonuses</h3>
             <Sparkles className="w-8 h-8 text-purple-600" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              "Скидка 20% при полной оплате",
-              "Видео-материалы: серия медитаций",
-              "Уроки по нейрографике",
-              "Вступление в закрытый чат",
-              "Чек-лист «Быстрые деньги»",
-              "Доступ к банку времени"
+              "20% discount for full payment",
+              "Video materials: meditation series",
+              "Neurographics lessons",
+              "Access to closed chat",
+              "Checklist «Quick Money»",
+              "Access to time bank"
             ].map((bonus, index) => (
               <div
                 key={index}
@@ -203,11 +203,11 @@ export function PricingSection() {
               <span className="text-4xl">💯</span>
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">
-              100% Гарантия результата
+              100% Result Guarantee
             </h3>
             <p className="text-gray-600 max-w-2xl">
-              Если после первой сессии вы не почувствуете изменений — вернем деньги. 
-              Без вопросов и условий.
+              If after the first session you don't feel changes — we'll refund your money. 
+              No questions or conditions.
             </p>
           </div>
         </motion.div>

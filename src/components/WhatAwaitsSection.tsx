@@ -4,23 +4,23 @@ import { Sparkles, Users, Heart, Zap } from "lucide-react";
 const benefits = [
   {
     icon: Sparkles,
-    title: "Глубокие практики",
-    description: "Работа с картами таро, биоэнергетикой и эзотерическими техниками для трансформации сознания"
+    title: "Deep Practices",
+    description: "Work with tarot cards, bioenergetics and esoteric techniques for consciousness transformation"
   },
   {
     icon: Users,
-    title: "Личные встречи",
-    description: "Индивидуальные и групповые сессии с прямым контактом и энергетическим обменом"
+    title: "Personal Sessions",
+    description: "Individual and group sessions with direct contact and energetic exchange"
   },
   {
     icon: Heart,
-    title: "Сопровождение на пути",
-    description: "Постоянная поддержка и корректировка курса на всем протяжении программы"
+    title: "Guidance on the Path",
+    description: "Constant support and course correction throughout the entire program"
   },
   {
     icon: Zap,
-    title: "Быстрые результаты",
-    description: "Первые изменения ощущаются уже после первой сессии, глубокие — через месяц"
+    title: "Quick Results",
+    description: "First changes are felt already after the first session, deep ones — within a month"
   }
 ];
 
@@ -52,10 +52,10 @@ export function WhatAwaitsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-purple-600 bg-clip-text text-transparent">
-            Что тебя ждет
+            What Awaits You
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Комплексный подход к трансформации всех сфер жизни
+            A comprehensive approach to transforming all areas of life
           </p>
         </motion.div>
 
@@ -92,12 +92,12 @@ export function WhatAwaitsSection() {
         >
           <div className="flex items-center justify-center gap-3 mb-4">
             <Sparkles className="w-6 h-6 text-orange-600" />
-            <h3 className="text-2xl font-semibold text-gray-900">Синергия подходов</h3>
+            <h3 className="text-2xl font-semibold text-gray-900">Synergy of Approaches</h3>
             <Sparkles className="w-6 h-6 text-orange-600" />
           </div>
           <p className="text-gray-700 text-center text-lg">
-            Уникальная комбинация эзотерики, парапсихологии, карт таро и биоэнергетических практик 
-            создает мощное поле для трансформации
+            A unique combination of esotericism, parapsychology, tarot cards and bioenergetic practices 
+            creates a powerful field for transformation
           </p>
         </motion.div>
       </div>

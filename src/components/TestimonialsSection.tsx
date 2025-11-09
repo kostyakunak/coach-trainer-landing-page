@@ -6,38 +6,38 @@ import { Button } from "./ui/button";
 const testimonials = [
   {
     id: 1,
-    name: "Елена М.",
-    result: "Нашла свое предназначение и удвоила доход за 2 месяца",
-    text: "После работы с Наталией моя жизнь кардинально изменилась. Я наконец-то поняла, чем хочу заниматься, и уже через месяц открыла свое дело. Сейчас зарабатываю в 2 раза больше, чем на прежней работе, и получаю огромное удовольствие!",
-    duration: "Программа VIP"
+    name: "Elena M.",
+    result: "Found her purpose and doubled her income in 2 months",
+    text: "After working with Natalia, my life changed dramatically. I finally understood what I want to do, and within a month I opened my own business. Now I earn 2 times more than at my previous job, and I get great pleasure!",
+    duration: "VIP Program"
   },
   {
     id: 2,
-    name: "Дмитрий К.",
-    result: "Восстановил отношения с семьей и избавился от страхов",
-    text: "Я пришел в программу с разрушенными отношениями и глубокими страхами. Наталия помогла мне увидеть корень проблем, идущий из детства. Сейчас я восстановил отношения с родителями и женой, чувствую уверенность и спокойствие.",
-    duration: "Программа Platinum"
+    name: "Dmitry K.",
+    result: "Restored family relationships and got rid of fears",
+    text: "I came to the program with destroyed relationships and deep fears. Natalia helped me see the root of the problems coming from childhood. Now I've restored relationships with my parents and wife, I feel confidence and peace.",
+    duration: "Platinum Program"
   },
   {
     id: 3,
-    name: "Анна В.",
-    result: "Развила интуицию и научилась управлять энергией",
-    text: "Практики Наталии открыли во мне невероятные способности. Я стала чувствовать энергии, научилась работать с картами таро и теперь помогаю другим людям. Это полностью изменило мое восприятие мира!",
-    duration: "Программа Light"
+    name: "Anna V.",
+    result: "Developed intuition and learned to manage energy",
+    text: "Natalia's practices revealed incredible abilities in me. I began to feel energies, learned to work with tarot cards and now help other people. This completely changed my perception of the world!",
+    duration: "Light Program"
   },
   {
     id: 4,
-    name: "Сергей Л.",
-    result: "Избавился от хронической усталости и нашел смысл жизни",
-    text: "До программы я чувствовал себя выжатым лимоном, ничего не радовало. Наталия нашла и устранила энергетические блоки, научила восстанавливаться. Сейчас полон сил, энергии и знаю, для чего живу.",
-    duration: "Программа VIP"
+    name: "Sergey L.",
+    result: "Got rid of chronic fatigue and found meaning in life",
+    text: "Before the program, I felt like a squeezed lemon, nothing pleased me. Natalia found and eliminated energetic blocks, taught me to recover. Now I'm full of strength, energy and know what I'm living for.",
+    duration: "VIP Program"
   },
   {
     id: 5,
-    name: "Мария П.",
-    result: "Привлекла любовь мечты и вышла замуж",
-    text: "Я долгие годы не могла встретить подходящего партнера. После работы с Наталией освободилась от страхов и блоков на отношения. Через 3 месяца встретила любовь всей жизни, сейчас мы женаты и счастливы!",
-    duration: "Программа Platinum"
+    name: "Maria P.",
+    result: "Attracted the love of her dreams and got married",
+    text: "For many years I couldn't meet the right partner. After working with Natalia, I freed myself from fears and blocks on relationships. After 3 months I met the love of my life, now we're married and happy!",
+    duration: "Platinum Program"
   }
 ];
 
@@ -65,10 +65,10 @@ export function TestimonialsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-purple-600 bg-clip-text text-transparent">
-            Что говорят участники
+            What Participants Say
           </h2>
           <p className="text-gray-600 text-lg">
-            Реальные истории трансформации людей
+            Real stories of people's transformation
           </p>
         </motion.div>
 
@@ -159,9 +159,9 @@ export function TestimonialsSection() {
           className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16"
         >
           {[
-            { number: "250+", label: "Довольных участников" },
-            { number: "95%", label: "Достигли своих целей" },
-            { number: "100%", label: "Ощутили изменения" }
+            { number: "250+", label: "Satisfied participants" },
+            { number: "95%", label: "Achieved their goals" },
+            { number: "100%", label: "Felt changes" }
           ].map((stat, index) => (
             <div
               key={index}

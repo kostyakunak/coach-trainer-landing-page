@@ -2,29 +2,29 @@ import { motion } from "motion/react";
 import { CheckCircle2, Award, Users, Star } from "lucide-react";
 
 const credentials = [
-  "Более 10 лет опыта в эзотерических практиках",
-  "Сертифицированный таролог и биоэнергет",
-  "Прошел обучение у лучших мастеров России и мира",
-  "Автор собственных методик трансформации",
-  "Помог более 250 людям изменить жизнь",
-  "Работал с топ-менеджерами и предпринимателями"
+  "More than 10 years of experience in esoteric practices",
+  "Certified tarot reader and bioenergeticist",
+  "Trained with the best masters of Russia and the world",
+  "Author of own transformation methodologies",
+  "Helped more than 250 people change their lives",
+  "Worked with top managers and entrepreneurs"
 ];
 
 const achievements = [
   {
     icon: Users,
     number: "250+",
-    label: "Учеников"
+    label: "Students"
   },
   {
     icon: Award,
     number: "10+",
-    label: "Лет опыта"
+    label: "Years of experience"
   },
   {
     icon: Star,
     number: "100%",
-    label: "Результативность"
+    label: "Effectiveness"
   }
 ];
 
@@ -40,7 +40,7 @@ export function MentorSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-teal-600 bg-clip-text text-transparent">
-            Почему мне доверились более 250 человек
+            Why More Than 250 People Trusted Me
           </h2>
         </motion.div>
 
@@ -56,7 +56,7 @@ export function MentorSection() {
             <div className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src="/images/pexels-enginakyurt-3148937.jpg"
-                alt="Наталия Сорокина"
+                alt="Natalia Sorokina"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-transparent" />
@@ -71,7 +71,7 @@ export function MentorSection() {
               className="absolute -bottom-6 -right-6 bg-gradient-to-br from-orange-500 to-purple-600 text-white p-6 rounded-2xl shadow-2xl"
             >
               <p className="text-3xl font-bold">10+</p>
-              <p className="text-sm">лет практики</p>
+              <p className="text-sm">years of practice</p>
             </motion.div>
           </motion.div>
 
@@ -83,10 +83,10 @@ export function MentorSection() {
             transition={{ duration: 0.6 }}
           >
             <h3 className="text-3xl font-bold text-gray-900 mb-6">
-              Наталия Сорокина
+              Natalia Sorokina
             </h3>
             <p className="text-xl text-gray-600 mb-8">
-              Мастер синергии эзотерики, парапсихологии, таро и биоэнергетики
+              Master of synergy of esotericism, parapsychology, tarot and bioenergetics
             </p>
 
             <div className="space-y-4 mb-8">
@@ -136,13 +136,13 @@ export function MentorSection() {
           className="mt-16 bg-gradient-to-r from-purple-100 via-teal-100 to-orange-100 p-8 md:p-12 rounded-3xl"
         >
           <p className="text-2xl text-gray-800 italic text-center">
-            "Моя миссия — помочь каждому человеку раскрыть свой истинный потенциал 
-            и начать жить жизнью, о которой он мечтал. Я использую синергию древних 
-            знаний и современных методик, чтобы создать уникальный путь трансформации 
-            для каждого ученика."
+            "My mission is to help every person unlock their true potential 
+            and start living the life they dreamed of. I use the synergy of ancient 
+            knowledge and modern methodologies to create a unique transformation path 
+            for each student."
           </p>
           <p className="text-right mt-4 text-gray-700 font-semibold">
-            — Наталия Сорокина
+            — Natalia Sorokina
           </p>
         </motion.div>
       </div>

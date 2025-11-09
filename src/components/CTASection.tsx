@@ -3,12 +3,12 @@ import { Button } from "./ui/button";
 import { CheckCircle2, Send } from "lucide-react";
 
 const results = [
-  "Повысишь уровень энергии и жизненных сил",
-  "Найдешь свое истинное предназначение",
-  "Наладишь отношения с близкими людьми",
-  "Увеличишь доход и привлечешь изобилие",
-  "Избавишься от страхов и ограничений",
-  "Разовьешь интуицию и энергетические способности"
+  "Increase your energy level and vitality",
+  "Find your true purpose",
+  "Improve relationships with loved ones",
+  "Increase income and attract abundance",
+  "Get rid of fears and limitations",
+  "Develop intuition and energetic abilities"
 ];
 
 export function CTASection() {
@@ -52,7 +52,7 @@ export function CTASection() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-white">
-            Как результат ты:
+            As a result you will:
           </h2>
         </motion.div>
 
@@ -81,11 +81,11 @@ export function CTASection() {
           className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 md:p-12 text-center shadow-2xl"
         >
           <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Начинаем работу сразу после оплаты
+            We Start Working Immediately After Payment
           </h3>
           <p className="text-xl text-gray-600 mb-8">
-            Никаких ожиданий и долгих подготовок. 
-            Уже завтра ты можешь начать свою трансформацию!
+            No waiting and long preparations. 
+            Tomorrow you can start your transformation!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
@@ -93,7 +93,7 @@ export function CTASection() {
               size="lg"
               className="bg-gradient-to-r from-purple-600 to-teal-600 hover:from-purple-700 hover:to-teal-700 text-white px-10 py-7 text-xl rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 group"
             >
-              <span>Выбираю себя</span>
+              <span>Choose Myself</span>
               <Send className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
@@ -101,12 +101,12 @@ export function CTASection() {
               variant="outline"
               className="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-10 py-7 text-xl rounded-full"
             >
-              Начать трансформацию
+              Start Transformation
             </Button>
           </div>
 
           <p className="text-sm text-gray-500">
-            При нажатии на кнопку вы будете перенаправлены в Telegram для связи с Наталией
+            By clicking the button you will be redirected to Telegram to contact Natalia
           </p>
         </motion.div>
 
@@ -119,9 +119,9 @@ export function CTASection() {
           className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6"
         >
           {[
-            { icon: "🔒", text: "Безопасная оплата" },
-            { icon: "💯", text: "Гарантия возврата" },
-            { icon: "⚡", text: "Быстрый старт" }
+            { icon: "🔒", text: "Secure payment" },
+            { icon: "💯", text: "Money-back guarantee" },
+            { icon: "⚡", text: "Quick start" }
           ].map((badge, index) => (
             <div
               key={index}

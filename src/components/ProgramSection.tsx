@@ -10,107 +10,107 @@ import { Award } from "lucide-react";
 const sessions = [
   {
     id: "1",
-    title: "Сессия 1: Знакомство и диагностика",
-    subtitle: "Выявление всех сфер жизни – Что требует внимания и биокоррекция",
+    title: "Session 1: Introduction and Diagnosis",
+    subtitle: "Identifying all areas of life – What needs attention and bio-correction",
     points: [
-      "Глубокое знакомство и создание энергетической связи",
-      "Диагностика всех сфер жизни: отношения, финансы, здоровье, предназначение",
-      "Выявление сильных и слабых сторон",
-      "Определение блоков и ограничивающих убеждений",
-      "Первичная биоэнергетическая коррекция"
+      "Deep introduction and creating an energetic connection",
+      "Diagnosis of all areas of life: relationships, finances, health, purpose",
+      "Identifying strengths and weaknesses",
+      "Determining blocks and limiting beliefs",
+      "Initial bioenergetic correction"
     ],
-    result: "Определишь, что необходимо корректировать в первую очередь"
+    result: "You'll determine what needs to be corrected first"
   },
   {
     id: "2",
-    title: "Сессия 2: Глубинные корни проблем",
-    subtitle: "Кто что-переняли и как избавиться, что стоит поменять схемы и планы",
+    title: "Session 2: Deep Roots of Problems",
+    subtitle: "What was inherited and how to get rid of it, what patterns and plans need to be changed",
     points: [
-      "Работа с родовыми программами и сценариями",
-      "Выявление унаследованных паттернов поведения",
-      "Освобождение от чужих убеждений и установок",
-      "Трансформация негативных программ через энергопрактики",
-      "Создание новых поддерживающих схем жизни"
+      "Working with ancestral programs and scenarios",
+      "Identifying inherited behavioral patterns",
+      "Liberation from others' beliefs and attitudes",
+      "Transformation of negative programs through energy practices",
+      "Creating new supportive life patterns"
     ],
-    result: "Освободишься от груза прошлого и родовых программ"
+    result: "You'll free yourself from the burden of the past and ancestral programs"
   },
   {
     id: "3",
-    title: "Сессия 3: Большой прорыв",
-    subtitle: "Большой прорыв без ограничения и кармические",
+    title: "Session 3: Major Breakthrough",
+    subtitle: "Major breakthrough without limitations and karmic",
     points: [
-      "Работа с кармическими узлами и задачами",
-      "Снятие энергетических блоков и зажимов",
-      "Активация внутренних ресурсов и потенциала",
-      "Прорыв через ограничивающие барьеры",
-      "Мощная трансформация на всех уровнях"
+      "Working with karmic knots and tasks",
+      "Removing energetic blocks and tensions",
+      "Activating internal resources and potential",
+      "Breakthrough through limiting barriers",
+      "Powerful transformation on all levels"
     ],
-    result: "Почувствуешь прилив энергии и новые возможности"
+    result: "You'll feel a surge of energy and new opportunities"
   },
   {
     id: "4",
-    title: "Сессия 4: Кризисы и прорывы",
-    subtitle: "Кризисы и разумный прорыв – а не вот качество",
+    title: "Session 4: Crises and Breakthroughs",
+    subtitle: "Crises and conscious breakthrough – not just quality",
     points: [
-      "Понимание смысла кризисных ситуаций",
-      "Трансформация кризиса в точку роста",
-      "Работа с сопротивлением изменениям",
-      "Безопасный и осознанный прорыв",
-      "Закрепление новых состояний"
+      "Understanding the meaning of crisis situations",
+      "Transforming crisis into a growth point",
+      "Working with resistance to change",
+      "Safe and conscious breakthrough",
+      "Anchoring new states"
     ],
-    result: "Научишься проходить через трудности с пользой для роста"
+    result: "You'll learn to go through difficulties with benefit for growth"
   },
   {
     id: "5",
-    title: "Сессия 5: Энергетическое изобилие",
-    subtitle: "Расчистка энергополе-корекция еб-об – давай место что-то не ошибетеся",
+    title: "Session 5: Energetic Abundance",
+    subtitle: "Clearing energy field and correction – making room for something new",
     points: [
-      "Очистка энергетического поля от негатива",
-      "Корректировка энергетических каналов",
-      "Открытие потоков изобилия и успеха",
-      "Работа с чакрами и энергоцентрами",
-      "Защита энергетического поля"
+      "Clearing the energy field from negativity",
+      "Correcting energy channels",
+      "Opening flows of abundance and success",
+      "Working with chakras and energy centers",
+      "Protecting the energy field"
     ],
-    result: "Почувствуешь легкость, чистоту и приток энергии"
+    result: "You'll feel lightness, purity and an influx of energy"
   },
   {
     id: "6",
-    title: "Сессия 6: Проявление желаемого",
-    subtitle: "Следуем своим желаниям завет деньги – без ожидание от и благо",
+    title: "Session 6: Manifesting Desires",
+    subtitle: "Following your true desires and attracting money – without expectations and attachments",
     points: [
-      "Работа с истинными желаниями души",
-      "Снятие блоков на материальное изобилие",
-      "Техники проявления желаемого в реальность",
-      "Освобождение от ожиданий и привязанностей",
-      "Создание магнитного поля для привлечения благ"
+      "Working with true soul desires",
+      "Removing blocks on material abundance",
+      "Techniques for manifesting desires into reality",
+      "Liberation from expectations and attachments",
+      "Creating a magnetic field to attract blessings"
     ],
-    result: "Научишься материализовывать свои желания"
+    result: "You'll learn to materialize your desires"
   },
   {
     id: "7",
-    title: "Завершающая мастер-сессия",
-    subtitle: "Индивидуальный мастер-сессии (90 минут). Таро или таро 8 50€ – Вход онлайн. более 3 вошников",
+    title: "Final Master Session",
+    subtitle: "Individual master session (90 minutes). Tarot or tarot 8 50€ – Online entry. More than 3 participants",
     points: [
-      "Глубокая индивидуальная работа по таро",
-      "Ответы на все важные вопросы",
-      "Прогноз на будущее и рекомендации",
-      "Завершение трансформационного цикла",
-      "План дальнейшего развития"
+      "Deep individual tarot work",
+      "Answers to all important questions",
+      "Future forecast and recommendations",
+      "Completion of the transformational cycle",
+      "Plan for further development"
     ],
-    result: "Получишь ясность пути и инструменты для дальнейшего роста"
+    result: "You'll gain clarity of path and tools for further growth"
   },
   {
     id: "8",
-    title: "Бонус: Годовое сопровождение",
-    subtitle: "Закрытая чар Ваша-собства 65-80 минут – Где не везёт один",
+    title: "Bonus: Annual Support",
+    subtitle: "Closed chat for your own group 65-80 minutes – Where one doesn't succeed alone",
     points: [
-      "Доступ к закрытому чату учеников",
-      "Ежемесячные групповые сессии поддержки",
-      "Ответы на вопросы в течение года",
-      "Дополнительные материалы и практики",
-      "Сообщество единомышленников"
+      "Access to closed student chat",
+      "Monthly group support sessions",
+      "Answers to questions throughout the year",
+      "Additional materials and practices",
+      "Community of like-minded people"
     ],
-    result: "Постоянная поддержка на пути трансформации весь год"
+    result: "Constant support on the transformation path throughout the year"
   }
 ];
 
@@ -126,13 +126,13 @@ export function ProgramSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-orange-600 bg-clip-text text-transparent">
-            Программа «Точка Роста»
+            "Growth Point" Program
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto mb-4">
-            Все детали сессий – каждый человек индивидуален
+            All session details – each person is individual
           </p>
           <p className="text-sm text-gray-500 italic">
-            Программа составляется индивидуально под каждого участника
+            The program is individually tailored for each participant
           </p>
         </motion.div>
 
@@ -176,7 +176,7 @@ export function ProgramSection() {
                       <div className="bg-gradient-to-r from-orange-100 to-purple-100 p-4 rounded-xl flex items-start gap-3">
                         <Award className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
                         <div>
-                          <p className="text-sm text-gray-600 mb-1">💯 Результат после сессии:</p>
+                          <p className="text-sm text-gray-600 mb-1">💯 Result after session:</p>
                           <p className="text-gray-800 font-medium">{session.result}</p>
                         </div>
                       </div>
